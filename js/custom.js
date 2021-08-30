@@ -1,0 +1,23 @@
+$(document).ready(function(){
+    $(".bannerSlider").owlCarousel({
+        items:1,
+        loop:true,
+        autoplay:true,
+        autoplayTimeout:5000,
+        smartSpeed:1000,
+        nav:false,
+    });
+  });
+
+  $(document).ready(function(){
+    $(".zerosoft_product_item").owlCarousel({
+        items:5,
+        margin:15,
+        loop:true,
+        autoplay:false,
+        autoplayTimeout:5000,
+        smartSpeed:500,
+        nav:true,
+        dots:false,
+    });
+  });
